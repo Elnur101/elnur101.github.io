@@ -1,6 +1,53 @@
-.login {
+.login a {
     color: white;
-    font-size: 25px;
-    margin: 5px;
+    font-size: 20px;
+    margin: 2px;
 }
 
+#leftmenu{
+    background: #5e74ff;
+    margin: 4%;
+}
+
+#leftmenu a {
+    color: white;
+}
+
+#leftmenu li{
+    border: 1px solid #f9fbff;
+}
+
+.login button{
+    background: #5e74ff;
+    color: white;
+}
+
+.navbar{
+    background: #5e74ff;
+}
+
+.card{
+    margin: 5%;
+}
+
+
+.card:hover{
+    background: #000;
+    opacity:0.8;
+    -moz-opacity:0.8;
+    filter: alpha(opacity=80) black;
+    -khtml-opacity: 0.8;
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+.btn-outline-light {
+    margin: 28% 0 0 36%;
+    text-align: center;
+}
