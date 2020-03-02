@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Обратная связь</title>
+</head>
+<body>
+<div class="container">
+    <h1>Обратная связь</h1>
+    <form id="mailForm">
+        <input type="email" id="email" name="email" placeholder="email" class="form-control m-2">
+        <input type="text" id="name" name="name" placeholder="Введите имя" class="form-control m-2">
+        <input type="phone" id="phone" name="phone" placeholder="Телефон" class="form-control m-2">
+        <textarea name="message" id="message" placeholder="email" class="form-control m-2"></textarea>
+        <button class="btn btn-success" id="sendMail">Отправить</button>
+    </form>
+    <div id="errorMess">
+
+    </div>
+</div>
+    
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="web/js/mess.js"></script>
+</body>
+</html>
