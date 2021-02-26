@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+hr{
+	background-color: #464646;
+	height: 1px;
+	border: none;
+}
+
+#navbar{
+	background-color: #262626;
+	height: 100px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.menu{
+	margin-left: 2rem;
+	font-size: 2rem;
+	color: #fff;
+}
+
+#nav-menu{
+	background-color: #262626;
+	width: 250px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: -100%; 
+	transition: all ease-in-out 850ms;
+	overflow: auto;
+}
+
+#nav-menu.active{
+	left: 0;
+	transition: 850ms;
+}
+
+.nav-text{
+	display: flex;
+	justify-content: start;
+	list-style: none;
+	height: 50px;
+	padding: 1rem;
+}
+
+.nav-text a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-left: 1rem;
+}
+
+.nav-text:hover{
+	background: rgba(144,144,144, 0.219);
+	cursor: pointer;
+}
+
+.nav-menu-items{
+	width: 100%;
+}
+
+.nav-icon{
+	padding-right: 1rem;
+	color: #909090;
+}
+
+#youtube-logo{
+	color: #f90201;
+	padding: 0.2rem;
+}
+
+#navbar-toggle{
+	background-color: #262626;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+#navbar-toggle h1{
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}
+
+#navbar-toggle a{
+	text-decoration: none;
+}
+
+.fa-bars{
+	color: #fff;
+}
+
+.nav-section{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.menu-bars{
+	font-size: 20px;
+}
+
